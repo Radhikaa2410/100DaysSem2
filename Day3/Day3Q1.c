@@ -20,7 +20,7 @@ int main()
             break;
         }
     }
-    if (i == n) 
+    if (i==n) 
     {
         printf("Not found\n");
     }
