@@ -14,7 +14,7 @@ int main()
     for (i = 0; i < n; i++) 
     {
         c++;             
-        if (a[i] == x) 
+        if (a[i]==x) 
         {
             printf("Found at index %d\n", i);
             break;
