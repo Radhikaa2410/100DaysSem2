@@ -17,7 +17,7 @@ int main()
     printf("Enter %d elements:\n", n);
     for (i = 0; i<n; i++) 
     {
-        scanf("%d", &arr[i]);
+        scanf("%d",&arr[i]);
     }
     printf("Enter the index where element is to be deleted: ");
     scanf("%d", &pos);
