@@ -10,7 +10,7 @@ int main()
     start = clock();  
     printf("Enter number of elements in array: ");
     scanf("%d", &n);
-    if (n >= 100) 
+    if (n>=100) 
     {
         printf("Overflow\n");
         return 0;
