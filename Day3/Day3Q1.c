@@ -10,8 +10,8 @@ int main()
         scanf("%d", &a[i]);
     }
     printf("Enter element to search: ");
-    scanf("%d", &x);
-    for (i = 0; i < n; i++) 
+    scanf("%d",&x);
+    for (i = 0; i<n; i++) 
     {
         c++;             
         if (a[i] == x) 
