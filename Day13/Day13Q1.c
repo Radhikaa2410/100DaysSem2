@@ -55,7 +55,7 @@ int main (){
 
     // Take matrix elements input
     printf("Enter elements of the matrix:\n");
-    for (int i = 0; i < rows; i++) {
+    for (int i = 0; i<rows; i++) {
         for (int j = 0; j < cols; j++) {
             scanf("%d", &Matrix[i][j]);
         }
