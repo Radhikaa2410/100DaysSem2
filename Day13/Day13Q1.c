@@ -62,7 +62,7 @@ int main (){
     }
 
 
-    printMatrix(rows, cols, Matrix);
+    printMatrix(rows,cols,Matrix);
 
     printf("\nSpiral Traversal:\n");
     spiralTraversal(rows,cols,Matrix);
