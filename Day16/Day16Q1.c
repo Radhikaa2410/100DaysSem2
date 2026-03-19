@@ -20,7 +20,8 @@ for(int i=0;i<n;i++){
 
 printf("\n Frequency of elements :\n");
 
-for(int i=0;i<n;i++){
+for(int i=0;i<n;i++)
+{
     if(visited[i] == 1)
         continue;
 
