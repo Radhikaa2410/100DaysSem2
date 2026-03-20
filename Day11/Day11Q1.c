@@ -44,7 +44,7 @@ int main (){
         }
     }
 
-    addMatrices(rows, cols,M1,M2,sum);
+    addMatrices(rows,cols,M1,M2,sum);
 
 
     printf("\nFirst Matrix:\n");
