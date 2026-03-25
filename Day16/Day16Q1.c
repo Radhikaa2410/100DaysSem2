@@ -22,7 +22,7 @@ printf("\n Frequency of elements :\n");
 
 for(int i=0;i<n;i++)
 {
-    if(visited[i] == 1)
+    if(visited[i]==1)
         continue;
 
         int count = 1;
