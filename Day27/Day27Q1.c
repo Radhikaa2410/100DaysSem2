@@ -99,7 +99,7 @@ int main() {
     printf("List 2: ");
     printList(head2);
 
-    struct node* intersection = find_intersection(head1,head2);
+    struct node* intersection = find_intersection(head1, head2);
    
 
     if (intersection != NULL)
