@@ -96,7 +96,7 @@ int main() {
 
             case 2:
                 printf("Enter value: ");
-                scanf("%d",&value);
+                scanf("%d", &value);
                 insertEnd(value);
                 break;
 
