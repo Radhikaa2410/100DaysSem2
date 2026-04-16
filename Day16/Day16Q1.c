@@ -4,7 +4,7 @@ int main(){
 int n;
 
 printf("Enter number of elemtents :");
-scanf("%d", &n);
+scanf("%d",&n);
 
 int arr[n];
 int visited[n];
