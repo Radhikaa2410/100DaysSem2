@@ -5,13 +5,11 @@ int n;
 
 printf("Enter number of elemtents :");
 scanf("%d",&n);
-
 int arr[n];
 int visited[n];
-
 for(int i=0;i<n;i++)
 {
-    visited[i] = 0;
+    visited[i]=0;
 }
 
 printf("Enter elements:");
