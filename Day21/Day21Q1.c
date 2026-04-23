@@ -19,7 +19,8 @@ struct node* createList(int n) {
         newNode->data = value;
         newNode->next = NULL;
 
-        if (head == NULL) {
+        if (head == NULL) 
+        {
             head = newNode;   
         } else {
             //traversing
