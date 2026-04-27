@@ -7,12 +7,11 @@ struct node
     int data;
     struct node *next;
 };
-
-struct node* createList(int n) {
-    struct node *head = NULL, *temp = NULL, *newNode = NULL;
+struct node *head = NULL, *temp = NULL, *newNode = NULL;
     int value, i;
 
-    for (i = 0; i < n; i++) {
+    for (i = 0; i < n; i++) 
+    {
         printf("Enter data for node %d: ", i + 1);
         scanf("%d", &value);
 
