@@ -24,7 +24,7 @@ Display from front to rear.*/
 
 int main()
 {
-    int n, i;
+    int n,i;
     
     printf("Enter number of elements: ");
     scanf("%d", &n);
