@@ -1,6 +1,5 @@
 #include<stdio.h>
 #define MAX 10
-
 void printMatrix(int matrix[MAX][MAX] , int n){
     printf("Matrix (%d x %d):\n" , n,n);
     for(int i=0;i<n ;i++){
